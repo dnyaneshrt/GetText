@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:background="#FAF09A"
+    android:orientation="vertical">
+
+   <EditText
+       android:id="@+id/et_name"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="enter your name:"
+       android:textSize="20sp"
+       android:gravity="center"
+       android:background="@drawable/border"
+       android:textStyle="bold"
+       android:padding="10dp"
+       android:layout_margin="10dp"
+       />
+
+    <Button
+        android:id="@+id/btn_getname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Text"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        />
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:text="+++++++++++++++++++"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
